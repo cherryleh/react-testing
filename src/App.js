@@ -1,11 +1,13 @@
 // src/App.js
 import React from 'react';
+import Header from './Header';
 import PlotlyChart from './PlotlyChart';
+
 
 function App() {
     return (
         <div className="App">
-            <h1>My Plotly Chart</h1>
+            <Header /> 
             <PlotlyChart />
         </div>
     );
